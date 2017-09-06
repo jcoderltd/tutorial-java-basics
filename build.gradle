@@ -1,0 +1,11 @@
+repositories {
+	mavenCentral()
+}
+
+apply plugin: 'java'
+
+group = 'io.jcoder.tutorials'
+version = '1.0.0'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
