@@ -8,7 +8,7 @@ package io.jcoder.tutorials.string;
  * 
  * <p>Each method shows a demo of a different conversion/case.</p>
  */
-public class StringToIntConversions {
+public class StringIntConversions {
     /**
      * Using {@link Integer#parseInt(String)} to convert a String to an int.
      */
@@ -65,7 +65,7 @@ public class StringToIntConversions {
     }
 
     public static void main(String[] args) {
-        StringToIntConversions stringConversions = new StringToIntConversions();
+        StringIntConversions stringConversions = new StringIntConversions();
 
         stringConversions.stringToInt();
         stringConversions.stringToIntException();
