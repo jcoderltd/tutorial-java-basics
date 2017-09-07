@@ -85,6 +85,18 @@ public class StringArrayConversions {
         System.out.println(resultString);
     }
 
+    /**
+     * Convert a String to an array of Strings using {@link String#split(String)}.
+     */
+    public void stringToStringArray() {
+        String inputString = "this,is,an,input,string";
+        String[] resultArray = inputString.split(",");
+
+        for (int i = 0; i < resultArray.length; i++) {
+            System.out.println(String.format("%d: %s", i, resultArray[i]));
+        }
+    }
+
     public static void main(String[] args) {
         StringArrayConversions stringConversions = new StringArrayConversions();
 
@@ -95,6 +107,8 @@ public class StringArrayConversions {
         stringConversions.arrayToStringForEachWithDelimiterCheck();
 
         stringConversions.arrayToStringArrays();
+
+        stringConversions.stringToStringArray();
     }
 
     private static class Person {
