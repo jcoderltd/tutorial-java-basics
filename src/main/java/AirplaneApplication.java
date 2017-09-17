@@ -1,7 +1,7 @@
 /*
  * Copyright 2017 the original author or authors.
  */
-package io.jcoder.tutorials.java.beginners.ch01;
+
 
 public class AirplaneApplication {
     public static void main(String[] args) {

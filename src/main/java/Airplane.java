@@ -1,7 +1,7 @@
 /*
  * Copyright 2017 the original author or authors.
  */
-package io.jcoder.tutorials.java.beginners.ch01;
+
 
 /**
  * Basic example of a class representing an Airplane.
