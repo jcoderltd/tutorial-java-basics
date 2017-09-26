@@ -1,7 +1,7 @@
 /*
  * Copyright 2017 the original author or authors.
  */
-package io.jcoder.tutorials.java.beginners.ch01.dotoperator;
+package io.jcoder.tutorials.ch01.dotoperator;
 
 /**
  * Example Door class used in the dot (.) operator section.
