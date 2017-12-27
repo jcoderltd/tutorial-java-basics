@@ -17,7 +17,7 @@ public class JavaUnaryOperatorsApp {
     public static void main(String[] args) {
         // + and - as unary operators
         int result1 = +1;
-        // result1 is 1 using either statement
+        // result1 is 1
         System.out.println("result1 = " + result1);
         
         int result2 = -result1;
