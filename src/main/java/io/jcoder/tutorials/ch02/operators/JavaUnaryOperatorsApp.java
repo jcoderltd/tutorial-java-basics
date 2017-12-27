@@ -7,7 +7,7 @@ package io.jcoder.tutorials.ch02.operators;
  * Example class used in the Unary Operators section of the Java for Beginners Course.
  * 
  * <p>
- * https://jcoder.io/article/java/beginners/ch02/operators
+ * https://jcoder.io/article/java/beginners/ch02/unaryoperators
  * </p>
  * 
  * @author Camilo Gonzalez
@@ -43,6 +43,5 @@ public class JavaUnaryOperatorsApp {
         boolean result5 = !value3;
         System.out.println("value3 = " + value3);
         System.out.println("result5 = " + result5);
-        
     }
 }

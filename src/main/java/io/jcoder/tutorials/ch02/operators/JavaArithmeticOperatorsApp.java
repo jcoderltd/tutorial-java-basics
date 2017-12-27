@@ -7,7 +7,7 @@ package io.jcoder.tutorials.ch02.operators;
  * Example class used in the Arithmetics Operators section of the Java for Beginners Course.
  * 
  * <p>
- * https://jcoder.io/article/java/beginners/ch02/operators
+ * https://jcoder.io/article/java/beginners/ch02/arithmeticoperators
  * </p>
  * 
  * @author Camilo Gonzalez
