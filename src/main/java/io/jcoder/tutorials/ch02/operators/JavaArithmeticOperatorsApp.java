@@ -42,5 +42,10 @@ public class JavaArithmeticOperatorsApp {
         int result5 = cores % 3;
         // result5 is 1
         System.out.println(cores + " % 3 = " + result5);
+
+        // String concatenation
+        String start = "This is a ";
+        String end = "sentence";
+        System.out.println(start + end);
     }
 }
