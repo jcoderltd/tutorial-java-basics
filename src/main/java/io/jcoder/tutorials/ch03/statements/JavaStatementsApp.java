@@ -49,8 +49,6 @@ public class JavaStatementsApp {
         number--;
         // increment statement
         number++;
-        
-        
     }
 
 }
