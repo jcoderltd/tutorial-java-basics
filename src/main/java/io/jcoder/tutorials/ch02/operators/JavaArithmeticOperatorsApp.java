@@ -47,5 +47,13 @@ public class JavaArithmeticOperatorsApp {
         String start = "This is a ";
         String end = "sentence";
         System.out.println(start + end);
+        
+        // compound assignment
+        int value = 1;
+        // equivalent to: value = value + 1;
+        value += 1;
+        // equivalent to: value = value * 2;
+        value *= 2;
+        System.out.println("New value is: " + value);
     }
 }

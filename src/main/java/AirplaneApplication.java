@@ -2,7 +2,9 @@
  * Copyright 2017 the original author or authors.
  */
 
-
+/**
+ * Basic example of a Java application that makes use of the Airplane class.
+ */
 public class AirplaneApplication {
     public static void main(String[] args) {
         Airplane plane1 = new Airplane();
