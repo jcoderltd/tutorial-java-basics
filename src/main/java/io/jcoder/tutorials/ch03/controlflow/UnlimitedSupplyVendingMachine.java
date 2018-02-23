@@ -31,8 +31,8 @@ public class UnlimitedSupplyVendingMachine {
     }
 
     public void addMoney(int amountToAdd) {
+        // only add the money to the balance if it doesn't exceed the allowed maximum
         if (balance + amountToAdd <= maxAllowedBalance) {
-            // only add the money to the balance if it doesn't exceed the allowed maximum
             balance += amountToAdd;
         }
     }
