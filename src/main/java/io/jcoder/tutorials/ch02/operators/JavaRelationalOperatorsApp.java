@@ -41,7 +41,7 @@ public class JavaRelationalOperatorsApp {
         boolean greaterThan = (a > b);
         System.out.println("a is greater than b? " + greaterThan);
         
-        boolean greaterOrEqual = (a > b);
+        boolean greaterOrEqual = (a >= b);
         System.out.println("a is greater than or equal to b? " + greaterOrEqual);
     }
 }
