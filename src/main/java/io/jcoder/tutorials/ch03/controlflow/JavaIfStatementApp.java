@@ -7,7 +7,7 @@ package io.jcoder.tutorials.ch03.controlflow;
  * Example class used in the If Statement section of the Java for Beginners Course.
  * 
  * <p>
- * https://jcoder.io/article/java/beginners/ch03/ifstatement
+ * https://jcoder.io/article/java/beginners/ch03/ifstatementexample
  * </p>
  * 
  * @author Camilo Gonzalez
