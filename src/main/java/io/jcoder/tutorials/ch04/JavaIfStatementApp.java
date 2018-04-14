@@ -1,13 +1,13 @@
 /*
  * Copyright 2018 - JCoder Ltd
  */
-package io.jcoder.tutorials.ch03.controlflow;
+package io.jcoder.tutorials.ch04;
 
 /**
- * Example class used in the If Statement section of the Java for Beginners Course.
+ * Example class used in the Simple Vending Machine project of the Java for Beginners Course.
  * 
  * <p>
- * https://jcoder.io/article/java/beginners/ch03/ifstatementexample
+ * https://jcoder.io/article/java/beginners/ch04/problemdefinition
  * </p>
  * 
  * @author Camilo Gonzalez

@@ -1,13 +1,13 @@
 /*
  * Copyright 2018 - JCoder Ltd
  */
-package io.jcoder.tutorials.ch03.controlflow;
+package io.jcoder.tutorials.ch04;
 
 /**
- * Simple Vending Machine class used for the examples in the JavaIfStatementApp.
+ * Simple Vending Machine class used for the examples in the Simple Vending Machine project.
  * 
  * <p>
- * https://jcoder.io/article/java/beginners/ch03/ifstatement
+ * https://jcoder.io/article/java/beginners/ch04/problemdefinition
  * </p>
  * 
  * <p>
