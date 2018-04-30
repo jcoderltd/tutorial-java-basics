@@ -30,7 +30,7 @@ public class BranchingStatementsApp {
         int result = calculator.squarePerimeter(2);
         System.out.println("A square of side 2 has a perimeter of: " + result);
 
-        // Examples of the break statement
+        // Example of the break statement
         int n = 10;
         int energy = 3;
         for (int i = 0; i < n; i++) {
@@ -39,6 +39,28 @@ public class BranchingStatementsApp {
                 energy--;
             } else {
                 System.out.println("I can't do this anymore!");
+                break;
+            }
+        }
+
+        // Example of the continue statement
+        int m = 8;
+        for (int i = 0; i < m; i++) {
+            // if the number is odd
+            if (i % 2 == 1) {
+                continue;
+            }
+            System.out.println("The next even number is: " + i);
+        }
+
+        // Nesting example
+        int j = 1;
+        while (j <= 2) {
+            System.out.println("The outer loop is on iteration: " + j);
+            j++;
+
+            for (int k = 1; k <= 4; k++) {
+                System.out.println("    The inner loop is on iteration: " + k);
                 break;
             }
         }
