@@ -38,16 +38,14 @@ public class UnlimitedSupplyVendingMachine {
     }
 
     public boolean deliverItem() {
-        // initially, define that no item has been delivered
-        boolean itemDelivered = false;
-
-        // if we have enough balance then deduct the cost of the item
-        // from the balance and indicate that the item was delivered
         if (balance >= costPerItem) {
+            // if we have enough balance then deduct the cost of the item
+            // from the balance and indicate that the item was delivered
             balance -= costPerItem;
-            itemDelivered = true;
+            return true;
+        } else {
+            return false;
         }
-        return itemDelivered;
     }
 
 }
