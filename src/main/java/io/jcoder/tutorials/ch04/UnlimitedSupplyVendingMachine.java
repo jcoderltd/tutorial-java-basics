@@ -48,4 +48,10 @@ public class UnlimitedSupplyVendingMachine {
         }
     }
 
+    public int giveChange() {
+        int changeToGive = balance;
+        balance = 0;
+        return changeToGive;
+    }
+
 }
