@@ -7,7 +7,7 @@ package io.jcoder.tutorials.ch03.controlflow;
  * Basic example used in the If-Else Statement section of the Java for Beginners Course.
  * 
  * <p>
- * https://jcoder.io/article/java/beginners/ch03/ifelsestatement
+ * https://jcoder.io/content/course/java/beginners/ch03/ifelsestatement
  * </p>
  * 
  * @author Camilo Gonzalez

@@ -9,8 +9,8 @@ import io.jcoder.tutorials.ch01.dotoperator.Door;
  * Example class used in the Expressions and Statements section of the Java for Beginners Course.
  * 
  * <p>
- * https://jcoder.io/article/java/beginners/ch03/expressions<br>
- * https://jcoder.io/article/java/beginners/ch03/statements
+ * https://jcoder.io/content/course/java/beginners/ch03/expressions<br>
+ * https://jcoder.io/content/course/java/beginners/ch03/statements
  * </p>
  * 
  * @author Camilo Gonzalez

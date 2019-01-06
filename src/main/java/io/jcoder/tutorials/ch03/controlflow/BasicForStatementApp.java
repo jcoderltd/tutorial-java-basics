@@ -7,7 +7,7 @@ package io.jcoder.tutorials.ch03.controlflow;
  * Basic example used in the For Statement section of the Java for Beginners Course.
  * 
  * <p>
- * https://jcoder.io/article/java/beginners/ch03/forstatement
+ * https://jcoder.io/content/course/java/beginners/ch03/forstatement
  * </p>
  * 
  * @author Camilo Gonzalez

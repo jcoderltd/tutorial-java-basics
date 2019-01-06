@@ -7,7 +7,7 @@ package io.jcoder.tutorials.ch02.operators;
  * Example class used in the Conditional Operators section of the Java for Beginners Course.
  * 
  * <p>
- * https://jcoder.io/article/java/beginners/ch02/conditionaloperators
+ * https://jcoder.io/content/course/java/beginners/ch02/conditionaloperators
  * </p>
  * 
  * @author Camilo Gonzalez

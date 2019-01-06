@@ -5,6 +5,12 @@ package io.jcoder.tutorials.ch05.inheritance.basics;
 
 /**
  * Basic example of a class representing an Airplane (used for Chapter 5).
+ * 
+ * <p>
+ * https://jcoder.io/content/course/java/beginners/ch05/inheritance
+ * </p>
+ * 
+ * @author Camilo Gonzalez
  */
 public class Airplane {
     private String manufacturer;

@@ -4,6 +4,11 @@
 package io.jcoder.tutorials.ch05.inheritance.basics;
 
 /**
+ * Example application to show the usage of a basic inheritance relationship in Java.
+ * 
+ * <p>
+ * https://jcoder.io/content/course/java/beginners/ch05/inheritance
+ * </p>
  * 
  * @author Camilo Gonzalez
  */

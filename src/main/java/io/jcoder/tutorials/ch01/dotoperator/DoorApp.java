@@ -6,7 +6,7 @@ package io.jcoder.tutorials.ch01.dotoperator;
 /**
  * Example DoorApp class used in the dot (.) operator section of the Java 8 Beginners Course.
  * 
- * <p>https://jcoder.io/article/java/beginners/ch01/dotOperator</p>
+ * <p>https://jcoder.io/content/course/java/beginners/ch01/dotOperator</p>
  * 
  * @author Camilo Gonzalez
  */

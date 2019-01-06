@@ -7,7 +7,7 @@ package io.jcoder.tutorials.ch03.controlflow;
  * Example class used in the Branching Statements section of the Java for Beginners Course.
  * 
  * <p>
- * https://jcoder.io/article/java/beginners/ch03/branchingstatements
+ * https://jcoder.io/content/course/java/beginners/ch03/branchingstatements
  * </p>
  * 
  * @author Camilo Gonzalez

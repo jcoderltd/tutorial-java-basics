@@ -8,7 +8,7 @@ package io.jcoder.tutorials.ch03.controlflow;
  * Beginners Course.
  * 
  * <p>
- * https://jcoder.io/article/java/beginners/ch03/moreifstatements
+ * https://jcoder.io/content/course/java/beginners/ch03/moreifstatements
  * </p>
  * 
  * @author Camilo Gonzalez

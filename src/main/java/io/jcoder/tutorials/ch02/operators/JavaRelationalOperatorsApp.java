@@ -7,7 +7,7 @@ package io.jcoder.tutorials.ch02.operators;
  * Example class used in the Equality and Relational Operators section of the Java for Beginners Course.
  * 
  * <p>
- * https://jcoder.io/article/java/beginners/ch02/relationaloperators
+ * https://jcoder.io/content/course/java/beginners/ch02/relationaloperators
  * </p>
  * 
  * @author Camilo Gonzalez

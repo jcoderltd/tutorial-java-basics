@@ -7,7 +7,7 @@ package io.jcoder.tutorials.ch04;
  * Simple Vending Machine class used for the examples in the Simple Vending Machine project.
  * 
  * <p>
- * https://jcoder.io/article/java/beginners/ch04/problemdefinition
+ * https://jcoder.io/content/course/java/beginners/ch04/problemdefinition
  * </p>
  * 
  * <p>

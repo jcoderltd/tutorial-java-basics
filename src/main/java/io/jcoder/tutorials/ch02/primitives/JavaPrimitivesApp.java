@@ -6,7 +6,7 @@ package io.jcoder.tutorials.ch02.primitives;
 /**
  * Example class used in the Primitives section of the Java 8 for Beginners Course.
  * 
- * <p>https://jcoder.io/article/java/beginners/ch02/primitives</p>
+ * <p>https://jcoder.io/content/course/java/beginners/ch02/primitives</p>
  * 
  * @author Camilo Gonzalez
  */

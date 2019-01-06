@@ -7,7 +7,7 @@ package io.jcoder.tutorials.ch03.exceptions;
  * Example class used in the Exceptions section.
  * 
  * <p>
- * https://jcoder.io/article/java/beginners/ch03/exceptions
+ * https://jcoder.io/content/course/java/beginners/ch03/exceptions
  * </p>
  * 
  * @author Camilo Gonzalez
