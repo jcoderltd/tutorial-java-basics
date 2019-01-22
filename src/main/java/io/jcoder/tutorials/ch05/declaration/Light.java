@@ -13,7 +13,7 @@ package io.jcoder.tutorials.ch05.declaration;
  * @author Camilo Gonzalez
  */
 public class Light {
-    private boolean isOn;
+    private boolean on;
 
     private String color;
 
@@ -24,32 +24,32 @@ public class Light {
     }
 
     public Light(boolean isLightOn, String lightInitialColor) {
-        isOn = isLightOn;
+        on = isLightOn;
         color = lightInitialColor;
     }
 
     public void turnOn() {
-        isOn = true;
+        on = true;
     }
 
     public void turnOn(String withColor) {
         color = withColor;
-        isOn = true;
+        on = true;
     }
 
     public void turnOn(int withPower) {
-        isOn = true;
+        on = true;
         power = withPower;
     }
 
     public void turnOn(String withColor, int withPower) {
         color = withColor;
         power = withPower;
-        isOn = true;
+        on = true;
     }
 
     public void turnOff() {
-        isOn = false;
+        on = false;
     }
 
     public void setColor(String newColor) {
@@ -65,12 +65,12 @@ public class Light {
     }
 
     public boolean isTurnedOn() {
-        return isOn;
+        return on;
     }
 
     public void printLightDetails() {
         String isLightOnMessage;
-        if (isOn) {
+        if (on) {
             isLightOnMessage = "turned on";
         } else {
             isLightOnMessage = "turned off";

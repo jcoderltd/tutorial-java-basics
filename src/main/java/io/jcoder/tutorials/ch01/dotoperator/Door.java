@@ -18,4 +18,8 @@ public class Door {
     public void unlockDoor() {
         locked = false;
     }
+    
+    public void setDoorLock(boolean lockValue) {
+        locked = lockValue;
+    }
 }
