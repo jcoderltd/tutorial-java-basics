@@ -25,18 +25,18 @@ public class DimmableLight extends Light {
         setPower(initialPower);
     }
 
-    public void setPower(int newPower) {
-        if (newPower < 0 || newPower > 100) {
-            System.out.println("Invalid new power provided, expected 0-100 but got: " + newPower);
+    public void setPower(int power) {
+        if (power < 0 || power > 100) {
+            System.out.println("Invalid new power provided, expected 0-100 but got: " + power);
         }
 
-        if (newPower == 0) {
+        if (power == 0) {
             turnOff();
         } else {
             turnOn();
         }
 
-        power = newPower;
+        this.power = power;
     }
 
     public int getPower() {

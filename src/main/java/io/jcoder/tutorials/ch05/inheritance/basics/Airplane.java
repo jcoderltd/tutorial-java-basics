@@ -21,12 +21,12 @@ public class Airplane {
 
     private boolean gearDeployed;
 
-    public void setManufacturer(String newManufacturer) {
-        manufacturer = newManufacturer;
+    public void setManufacturer(String manufacturer) {
+        this.manufacturer = manufacturer;
     }
 
-    public void setNumberOfSeats(int newNumberOfSeats) {
-        numberOfSeats = newNumberOfSeats;
+    public void setNumberOfSeats(int numberOfSeats) {
+        this.numberOfSeats = numberOfSeats;
     }
 
     public void takeOff() {

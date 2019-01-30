@@ -18,9 +18,9 @@ public class Toy {
     // From what age can children use this toy
     int fromAge;
 
-    public Toy(String toyName, int minAge) {
-        name = toyName;
-        fromAge = minAge;
+    public Toy(String name, int fromAge) {
+        this.name = name;
+        this.fromAge = fromAge;
     }
 
     public void printDescription() {
