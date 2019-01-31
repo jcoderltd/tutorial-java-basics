@@ -4,7 +4,7 @@
 package io.jcoder.tutorials.ch05.inheritance.methodsandfields;
 
 /**
- * Example classed used to show methods and fields when inheritance is involved.
+ * Example class used to show methods and fields when inheritance is involved.
  * 
  * <p>
  * https://jcoder.io/content/course/java/beginners/ch05/inheritancemethodsandfields

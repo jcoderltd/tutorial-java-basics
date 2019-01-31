@@ -4,7 +4,7 @@
 package io.jcoder.tutorials.ch05.declaration;
 
 /**
- * Example classed used to show different access level modifiers in Java.
+ * Example class used to show different access level modifiers in Java.
  * 
  * <p>
  * https://jcoder.io/content/course/java/beginners/ch05/declaration1
