@@ -4,7 +4,7 @@
 package io.jcoder.tutorials.ch05.polymorphism;
 
 /**
- * Example class used to polymorphism.
+ * Example class used to introduce the concept of polymorphism.
  * 
  * <p>
  * https://jcoder.io/content/course/java/beginners/ch05/polymorphism
