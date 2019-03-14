@@ -23,7 +23,7 @@ public class JavaObjectEqualityPropertiesApp {
         DictionaryEntry run2 = new DictionaryEntry("run", "definition of run");
         System.out.println("Symmetric property:");
         System.out.println("run1 equals run2: " + run1.equals(run2));
-        System.out.println("run2 equals run1: " + run1.equals(run2));
+        System.out.println("run2 equals run1: " + run2.equals(run1));
 
         DictionaryEntry run3 = new DictionaryEntry("run", "definition of run");
         System.out.println("Transitive property:");
