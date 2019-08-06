@@ -1,7 +1,7 @@
 /*
  * Copyright 2019 - JCoder Ltd
  */
-package io.jcoder.tutorials.ch08.anonymous;
+package io.jcoder.tutorials.ch08.lambdas;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -10,33 +10,22 @@ import java.util.List;
 import io.jcoder.tutorials.ch08.listexample.Filter;
 
 /**
- * Example class used to help introduce anonymous classes.
+ * Example class used to help introduce lambdas.
  * 
  * <p>
- * https://jcoder.io/content/course/java/beginners/ch08/anonymous
+ * https://jcoder.io/content/course/java/beginners/ch08/lambdas
  * </p>
  * 
  * @author Camilo Gonzalez
  */
-public class JavaListWithAnonymousFilterApp {
-    
+public class JavaListWithMethodRefFilterApp {
+
     public static void main(String[] args) {
         // our input list of numbers
         List<Integer> numbers = Arrays.asList(1, 2, 3, 10, 11, 12, 0);
 
-        // define the filter we want to use as an anonymous class
-        Filter<Integer> filterToUse = new Filter<Integer>() {
-            @Override
-            public boolean filter(Integer element) {
-                if (element > 5) {
-                    return true;
-                }
-                return false;
-            }
-        };
-
         // call our new `filterNumbers` static method to do the filtering
-        List<Integer> filtered = filterNumbers(numbers, filterToUse);
+        List<Integer> filtered = filterNumbers(numbers, JavaListWithMethodRefFilterApp::greaterThanFive);
 
         // print out the filtered list
         for (Integer number : filtered) {
@@ -53,5 +42,9 @@ public class JavaListWithAnonymousFilterApp {
             }
         }
         return filtered;
+    }
+
+    private static boolean greaterThanFive(Integer element) {
+        return element > 5;
     }
 }
