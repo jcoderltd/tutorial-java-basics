@@ -13,44 +13,44 @@ package io.jcoder.tutorials.ch11.trysyntax;
  * @author Andres Ricardo Perez
  */
 public class TrySyntaxApp {
-	
-public static void main(String[] args) {
-        
+
+    public static void main(String[] args) {
+
         // No exception occurs
         try {
             System.out.println("Try block executed");
-            int x = 12/4;
-        } catch(ArithmeticException e){
+            int x = 12 / 4;
+        } catch (ArithmeticException e) {
             System.out.println("Catch block executed");
             System.out.println("An ArithmeticException occurred: " + e.getMessage());
-        } finally{
+        } finally {
             System.out.println("Finally block executed");
         }
         System.out.println("After try/catch/finally block. \n");
-        
+
         // An exception occurs and is handled
         try {
             System.out.println("Try block executed");
-            int x = 12/0;
-        } catch(ArithmeticException e){
+            int x = 12 / 0;
+        } catch (ArithmeticException e) {
             System.out.println("Catch block executed");
             System.out.println("An ArithmeticException occurred: " + e.getMessage());
-        } finally{
+        } finally {
             System.out.println("Finally block executed");
         }
         System.out.println("After try/catch/finally block. \n");
-        
+
         // An exception occurs and is not handled
         try {
             System.out.println("Try block executed");
-            int x = 12/0;
-        } catch(NullPointerException e){
+            int x = 12 / 0;
+        } catch (NullPointerException e) {
             System.out.println("Catch block executed");
             System.out.println("An NullPointerException occurred: " + e.getMessage());
-        } finally{
+        } finally {
             System.out.println("Finally block executed");
         }
         System.out.println("After try/catch/finally block. \n");
     }
-	
+
 }

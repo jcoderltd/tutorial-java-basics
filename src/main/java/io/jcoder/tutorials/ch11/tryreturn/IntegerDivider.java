@@ -14,11 +14,11 @@ package io.jcoder.tutorials.ch11.tryreturn;
  */
 public class IntegerDivider {
 
-	int divide(int dividend, int divisor){
-        try{
+    int divide(int dividend, int divisor) {
+        try {
             System.out.println("Try block executed");
-            return dividend/divisor;
-        } catch(ArithmeticException e) {
+            return dividend / divisor;
+        } catch (ArithmeticException e) {
             System.out.println("Catch block executed");
             System.out.println("An ArithmeticException occurred: " + e.getMessage());
             return -1;
@@ -28,5 +28,5 @@ public class IntegerDivider {
             return 0;
         }
     }
-	
+
 }

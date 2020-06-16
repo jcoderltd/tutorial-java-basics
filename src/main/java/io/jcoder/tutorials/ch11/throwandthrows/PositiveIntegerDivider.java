@@ -13,7 +13,7 @@ package io.jcoder.tutorials.ch11.throwandthrows;
  * @author Andres Ricardo Perez
  */
 public class PositiveIntegerDivider {
-    
+
     int divide(int dividend, int divisor) {
         try {
             System.out.println("Try block executed");
@@ -24,8 +24,8 @@ public class PositiveIntegerDivider {
             } else if (divisor <= 0) {
                 throw new IllegalArgumentException("divisor is not greater than 0");
             }
-            return dividend/divisor;
-        } catch(IllegalArgumentException e) {
+            return dividend / divisor;
+        } catch (IllegalArgumentException e) {
             System.out.println("Catch block executed");
             System.out.println("An IllegalArgumentException occurred: " + e.getMessage());
             return -1;
